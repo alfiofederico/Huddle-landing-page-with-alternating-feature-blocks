@@ -18,5 +18,9 @@ export const StyledSocialIcons = styled.div`
     height: 40px;
     width: 40px;
     text-decoration: none;
+    &:hover {
+      color: hsl(322, 100%, 66%);
+      border: 1px solid hsl(322, 100%, 66%);
+    }
   }
 `;

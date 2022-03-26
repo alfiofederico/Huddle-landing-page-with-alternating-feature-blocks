@@ -3,6 +3,7 @@ import SocialIcons from './SocialIcons'
 import { Container } from './styled/Container.styled'
 import { Flex } from './styled/Flex.styled'
 import { StyledFooter } from './styled/Footer.styled'
+import { About } from './styled/About.styled'
 
 
 const Footer = () => {
@@ -13,24 +14,24 @@ const Footer = () => {
 
         <Flex>
           <ul>
-            <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            <li> <img src="./images/icon-location.svg" alt="pin" /> 
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </li>
-            <li>+1-543-123-4567</li>
-            <li>example@huddle.com</li>
+            <li> <img src="./images/icon-phone.svg" alt="pin"/> +1-543-123-4567</li>
+            <li><img src="./images/icon-email.svg" alt="pin"/> example@huddle.com</li>
           </ul>
-          <ul>
+          <About>
             <li>About Us</li>
             <li>What We Do</li>
             <li>FAQ</li>
-          </ul>
+          </About>
 
-          <ul>
+          <About>
             <li>Career</li>
             <li>Blog</li>
             <li>Contact Us</li>
-          </ul>
+          </About>
 
           <SocialIcons />
         </Flex>
