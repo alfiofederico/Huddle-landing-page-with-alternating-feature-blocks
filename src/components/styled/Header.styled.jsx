@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-  background-color: ${({theme}) => theme.colors.header};
+  background: url(images/bg-hero-desktop.svg);
+  background-position: cover;
+  background-color: hsl(193, 100%, 96%);
   padding: 40px 0;
 `;
 

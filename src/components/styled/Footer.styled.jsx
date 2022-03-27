@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Container } from "./Container.styled";
 
 export const StyledFooter = styled.footer`
+position: relative;
   background-color: ${({ theme }) => theme.colors.footer};
   color: #fff;
   padding: 100px 0 60px;
